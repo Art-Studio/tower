@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "var list = {
+	'en': {
+		'collectCoins': 'collect coins',
+		'enoughCoins': 'NOT ENOUGH COINS',
+		'needCoins': 'need 10 coins',
+		'lostCoins': 'lost coins collect again',
+		'findKey': 'find the key',
+		'needKeys': 'need more keys',
+		'doorOpen': 'the door is open'
+	}
+}
+"
+
+[resource]
+script = SubResource( 1 )
